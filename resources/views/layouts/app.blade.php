@@ -5,19 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title')</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<style>
-    body{
-        padding: 20px;
-    }
-    ul{
-        display: flex;
-        list-style: none;
-    }
-    ul li {
-        padding: 20px;
-    }
-</style>
 <body>
 <header>
     <h1>My Website</h1>
